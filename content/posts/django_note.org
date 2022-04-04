@@ -1,5 +1,5 @@
 #+TITLE: Python后台开发
-#+AUTHOR: Yi Chen
+#+AUTHOR: MADISON CS ALUMNI
 #+EMAIL: reid@cs.wisc.edu
 #+DATE: <2019-06-21 Fri>
 #+keywords[]: Python Django RegEx MySQL

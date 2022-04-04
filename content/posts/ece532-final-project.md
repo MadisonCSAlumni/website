@@ -14,9 +14,9 @@ keywords:
 
 A final project for ECE532
 
-By: Yi Chen, Yuehan Qin, Jijie Zhang
+By: MADISON CS ALUMNI, Yuehan Qin, Jijie Zhang
 
-**Introduction** [Yi Chen, Yuehan Qin]
+**Introduction** [MADISON CS ALUMNI, Yuehan Qin]
 
 Neural networks, which are widely applied in deep learning, are inspired by neuron connectivity patterns that are similar to animal cortex structure. A specialized neural network, convolutional neural network (CNN), takes the advantage of &quot;convolution operation&quot;. This operation, realized by a kernel or a filter, calculates the weighted sum of pixel information in a certain area defined by the size of the kernel. The kernel shifts across the image to retrieve information of the whole image. The benefit of using kernels, as used in CNN, instead of flattening the input image is that weights corresponding to a kernel can be shared by the whole image, meaning there are less parameters to be trained and hence improve the network performance.
 
@@ -38,7 +38,7 @@ Krizhevsky et al. trained a large, deep convolutional neural network (AlexNet) i
 
 Their result shows that large and deep CNN is capable of achieving record-breaking results on a highly challenging dataset using purely supervised learning. By adding new and unusual features to CNN, performance of it can be improved and faster training time can be achieved. Also, the significant problem for large and deep CNN, overfitting, can be prevented through data augmentation and dropout as well. Meanwhile, as Krizhevsky et al. state, producing labeled dataset that is large enough is important for making CNNs powerful and do what they could really do. This paper provides detailed methods for improving performance of large and deep CNN, which makes the approach computationally tractable for realistic problems. Accurate error rate for adding each feature is given and I think the claims are convincing and accurate. However, the number of very large labeled datasets is limited, which puts constraints on the application of the approach discussed in this paper as their result is gained through labeled dataset that is large enough to show the power of CNN. In the real world condition, it may be too expensive to label such a huge dataset unless a better and more efficient labelling approach is developed.
 
-**Visualizing and understanding convolutional networks** [Yi Chen]
+**Visualizing and understanding convolutional networks** [ CheMADISON CS ALUMNIn]
 
 Matthew D Zeiler and Rob Fergus. Visualizing and understanding convolutional networks. In
 
@@ -48,7 +48,7 @@ In the article, Visualizing and Understanding Convolutional Networks, Zeiler &am
 
 Through visualization, the paper reveals what the kernel&#39;s job is and what the kernels at different layers are doing. The visualization tool resolves CNN&#39;s black box, providing researchers more insights about it and providing machine learning engineers a new tool to inspect and modify CNN architecture. Zeiler &amp; Fergus actually used the tool to modify AlexNet by changing the first layer&#39;s filter size from 11x11 to 7x7 and changing the stride size from 4 to 2. The data provided by them proved that changing the network according to the visualization results can, in fact, significantly outperform the performance of vanilla AlexNet. Moreover, the authors also provided evidence on the generalization of their CNN. The new architecture works well (near the state of the art performance) on their original ImageNet dataset and other datasets like Caltech-256. Their architecture is absolutely computationally tractable since they successfully trained it using a single GTX580 GPU, which is much slower than the current GTX 30 series GPU. As we know, training a deep neural network with large input takes a large amount of computational power and time. The finding of Zeiler &amp; Fergus provides &quot;more matter with less art&quot; to the development of neural networks, saving developers and researchers many times from empirical approaches like training new networks with different designs.
 
-**Very Deep Convolutional Networks for Large-Scale Image Recognition** [Yi Chen]
+**Very Deep Convolutional Networks for Large-Scale Image Recognition** [MADISON CS ALUMNI]
 
 Karen Simonyan and Andrew Zisserman. Very deep convolutional networks for large-scale
 

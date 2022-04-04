@@ -1,5 +1,5 @@
 #+TITLE: Introduction to Artifical Intelligence
-#+AUTHOR: Yi Chen
+#+AUTHOR: MADISON CS ALUMNI
 #+EMAIL: reid@cs.wisc.edu
 #+DATE: <2020-04-30 Thu>
 #+tags[]: ML

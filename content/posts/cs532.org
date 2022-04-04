@@ -1,5 +1,5 @@
 #+TITLE: Matrix Methods in Machine Learning
-#+AUTHOR: Yi Chen
+#+AUTHOR: MADISON CS ALUMNI
 #+DATE: <2020-12-15 Tue>
 #+tags[]: ML
 #+keywords[]: CS ML AI
